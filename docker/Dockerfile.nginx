@@ -1,7 +1,10 @@
 FROM nginx
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \
-    build-essential vim curl tree wget
+    build-essential vim curl tree wget watch net-tools
 
 COPY nginx/nginx.conf /etc/nginx/nginx.conf
+COPY watch.sh /watch.sh
+
+RUN chmod +x watch.sh
 
