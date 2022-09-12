@@ -1,0 +1,10 @@
+# Python files
+__pycache__
+
+# Python Virtual Environment
+.venv
+
+# Vim
+*.swp
+Session.vim
+
