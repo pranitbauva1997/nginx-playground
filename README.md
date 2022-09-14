@@ -2,7 +2,7 @@
 
 ## Architecture of the experiment
 
-We have two app containers which have a FastAPI server running and an nginx container to load balance the requests.
+There are two app containers which have a FastAPI server running and an nginx container to load balance the requests.
 
 ## Notes
 
