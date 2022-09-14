@@ -12,4 +12,4 @@ async def log_request_response(request: Request, call_next):
 
 @app.get("/")
 async def hello():
-    return {"Hello": "World!"}
+    return {"success": True}
